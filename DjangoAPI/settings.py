@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework'
     'corsheaders'
-    'Employeeapp.apps.EmployeeappConfig'
+    'EmployeeApp.apps.EmployeeAppConfig'
 
 ]
 CORS_ORIGIN_ALLOW = True
@@ -83,10 +83,11 @@ WSGI_APPLICATION = 'DjangoAPI.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'PostgreSQL 10',
-        'USER':'mytestdb'
-        'PASSWORD':'jasty2808'
-        'HOST':PostgreSQL 10.postgresql.database
+        'NAME': 'mytestdb',
+        'USER':'postgres',
+        'PASSWORD':'jasty2808',
+        'HOST':'loclahost',
+        'PORT':'5432',
     }
 }
 
