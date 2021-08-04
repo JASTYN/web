@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\DjangoAPI",
+    "\\Employeeapp",
+    "\\Employeeapp\\migrations"
   ],
+  "SelectedNode": "\\DjangoAPI\\wsgi.py",
   "PreviewInSolutionExplorer": false
 }
